@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/allef_vinicius_fjtqyzmoh18_unsplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/allef_vinicius_fjtqyzmoh18_unsplash"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btVolver"
+        android:layout_width="131dp"
+        android:layout_height="84dp"
+        android:text="Volver"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        app:srcCompat="@android:drawable/ic_menu_myplaces"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+    <TextView
+        android:id="@+id/texlogo"
+        android:layout_width="210dp"
+        android:layout_height="144dp"
+        android:text="CDR"
+        android:textColor="#25FD2E"
+        android:textSize="96sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <TextView
+        android:id="@+id/texlogo"
+        android:layout_width="122dp"
+        android:layout_height="70dp"
+        android:text="CDR"
+        android:textColor="#25FD2E"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="620dp" />
+
+    <EditText
+        android:id="@+id/texUsuarioSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Usuario"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <EditText
+        android:id="@+id/texSignC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <EditText
+        android:id="@+id/texSignConfirma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <Button
+        android:id="@+id/btRegistrar"
+        android:layout_width="220dp"
+        android:layout_height="110dp"
+        android:text="Registrar"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:mipmap/sym_def_app_icon"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="620dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
